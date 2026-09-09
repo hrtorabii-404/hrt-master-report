@@ -1,0 +1,20 @@
+{
+  "name": "hrt-private-marketplace",
+  "interface": {
+    "displayName": "HRT Private Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "hrt",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hrt"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
