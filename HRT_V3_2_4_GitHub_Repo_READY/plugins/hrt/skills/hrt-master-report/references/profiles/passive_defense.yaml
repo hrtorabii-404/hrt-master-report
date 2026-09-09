@@ -1,0 +1,58 @@
+profile:
+  id: "passive_defense"
+  display_name_fa: "پدافند غیرعامل / حفاظت از زیرساخت حیاتی"
+  aliases:
+    - "پدافند غیرعامل"
+    - "CIP"
+    - "Critical Infrastructure Protection"
+
+purpose: "Produce an evidence-traceable assessment of assets, threats, vulnerabilities, dependencies, consequences, resilience, continuity, and treatment options."
+
+required_inputs:
+  - "approved scope and site boundary"
+  - "asset inventory and criticality basis"
+  - "authorized threat basis or scenario set"
+  - "existing protective measures"
+  - "interdependency information"
+  - "applicable official requirements supplied or verified for the project"
+  - "approved risk methodology"
+
+analysis_objects:
+  - "threat"
+  - "asset"
+  - "vulnerability"
+  - "dependency"
+  - "consequence"
+  - "risk"
+  - "resilience"
+  - "continuity"
+  - "operational_plan"
+
+recommended_modules:
+  - "خلاصه مدیریتی"
+  - "کلیات، دامنه و تعاریف"
+  - "روش‌شناسی و معیارهای ارزیابی"
+  - "شناخت سامانه، محیط و دارایی‌ها"
+  - "تعیین دارایی‌های حیاتی و وابستگی‌ها"
+  - "مبنای تهدید و سناریوهای معتبر"
+  - "آسیب‌پذیری و اقدامات موجود"
+  - "پیامد، ریسک و اولویت‌بندی"
+  - "تاب‌آوری و تداوم کارکرد"
+  - "گزینه‌های کاهش ریسک"
+  - "برنامه اقدام، مسئول و زمان‌بندی"
+  - "منابع و پیوست‌ها"
+
+hard_constraints:
+  - "Do not invent, infer, or broaden a classified threat basis."
+  - "Do not label an asset critical without an explicit criticality criterion."
+  - "Do not use the template 5x5 matrix until scales, thresholds, aggregation, and acceptance criteria are confirmed."
+  - "Keep vulnerabilities, threats, and consequences conceptually distinct."
+  - "Mark security-sensitive details and distribution controls only from authorized project instructions."
+
+decision_outputs:
+  - "priority asset or function"
+  - "evidence and uncertainty"
+  - "risk or resilience implication"
+  - "recommended treatment"
+  - "decision owner"
+  - "implementation horizon"

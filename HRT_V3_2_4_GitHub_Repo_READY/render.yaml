@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hrt-mcp
+    runtime: docker
+    dockerfilePath: ./app/Dockerfile
+    dockerContext: ./app
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
