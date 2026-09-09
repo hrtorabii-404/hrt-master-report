@@ -1,0 +1,34 @@
+version: "3.2.4"
+fields:
+  CoverTitle1: {required: true, description: "Main cover title"}
+  CoverTitle2: {required: true, description: "Project/company second cover line"}
+  CoverStageTitle: {required: false, description: "Stage/chapter/volume cover line"}
+  CoverSubtitle: {required: false, description: "Subtitle or governing-framework line"}
+  CoverDateLine: {required: false, description: "Cover date/season line"}
+  ProjectTitle: {required: true}
+  ReportTitle: {required: true}
+  ReportCode: {required: true}
+  VolumeNo: {required: false}
+  ProjectManager: {required: false}
+  ProjectControl: {required: false}
+  KeyContributors: {required: false}
+  OtherTeam: {required: false}
+  AdditionalTeam: {required: false}
+  SupportTeam: {required: false}
+  CopyCount: {required: false}
+  IssueDate: {required: true, format: "DD/MM/YYYY (Solar Hijri where applicable)"}
+  TransmittalNo: {required: false}
+  PreparedBy: {required: false}
+  HeaderProjectTitle: {required: true}
+  HeaderReportTitle: {required: true}
+  Classification: {required: false, default: null}
+derived:
+  ClassificationInline: "Parenthesized Classification when nonblank, else blank"
+
+output_naming_fields:
+  OutputDomain: {required: true, description: "Normalized domain token used in output filename"}
+  OutputDocumentType: {required: true, description: "Normalized document type token used in output filename"}
+  OutputProjectName: {required: true, description: "Official English project/company name when documented; otherwise safe project name"}
+  OutputScope: {required: false, description: "Optional scope token such as Chapter01 or Volume02"}
+  OutputRevision: {required: false, description: "Optional revision token such as R01"}
+  OutputExtension: {required: true, default: "docx"}

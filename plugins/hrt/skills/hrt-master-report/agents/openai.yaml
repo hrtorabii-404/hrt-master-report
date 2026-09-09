@@ -1,0 +1,9 @@
+interface:
+  display_name: "HRT Master Report V3.2.4"
+  short_description: "قالب مادر عمومی گزارش‌های Word فارسی؛ شماره‌گذاری و TOC صحیح، RTL معنایی و جدول 11pt"
+  icon_small: "./assets/hrt-mark.svg"
+  icon_large: "./assets/hrt-mark.svg"
+  brand_color: "#7F7F7F"
+  default_prompt: "Use HRT Master Report V3.2.4 when the user says HRT, HRT Master, HRT Report, قالب HRT, or asks for an HRT-formatted report; no @ or $ prefix is required."
+policy:
+  allow_implicit_invocation: true

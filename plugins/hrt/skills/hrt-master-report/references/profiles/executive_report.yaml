@@ -1,0 +1,54 @@
+profile:
+  id: "executive_report"
+  display_name_fa: "گزارش مدیریتی / تصمیم‌یار"
+  aliases:
+    - "Executive Report"
+    - "Management Report"
+    - "گزارش فعالیت"
+    - "گزارش تصمیم‌یار"
+
+purpose: "Provide a concise, decision-oriented view of status, evidence, deviations, risks, actions, owners, and decisions required."
+
+required_inputs:
+  - "reporting period and baseline"
+  - "approved objectives and KPIs"
+  - "current actuals and prior comparison"
+  - "major milestones and dependencies"
+  - "issues, risks, decisions, owners, and due dates"
+  - "source records for material claims"
+
+analysis_objects:
+  - "objective"
+  - "KPI"
+  - "milestone"
+  - "variance"
+  - "issue"
+  - "risk"
+  - "decision"
+  - "action"
+  - "owner"
+  - "due_date"
+
+recommended_modules:
+  - "خلاصه یک‌صفحه‌ای"
+  - "وضعیت شاخص‌ها و روند"
+  - "پیشرفت فعالیت‌ها و نقاط عطف"
+  - "انحراف از برنامه و علت"
+  - "مسائل و ریسک‌های اولویت‌دار"
+  - "تصمیم‌های موردنیاز"
+  - "برنامه اقدام، مسئول و موعد"
+  - "پیوست شواهد، در صورت نیاز"
+
+hard_constraints:
+  - "Use a stable KPI definition, period, unit, target, actual, and source."
+  - "Do not hide unfavorable variance or uncertainty."
+  - "Distinguish status facts from management interpretation and proposed action."
+  - "Every action needs an owner and due date or an explicit reason why one is not yet assigned."
+  - "Use the management table or normal grayscale report structures only for genuine decision points; do not introduce colored HRT cards."
+
+decision_outputs:
+  - "decision statement"
+  - "supporting evidence"
+  - "consequence of delay"
+  - "recommended option"
+  - "decision owner and deadline"
