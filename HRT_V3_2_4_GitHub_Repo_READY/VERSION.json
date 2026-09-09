@@ -1,7 +1,0 @@
-{
-  "product": "HRT Master Report",
-  "pluginDisplayName": "HRT",
-  "version": "3.2.4",
-  "goldenMasterVersion": "3.2.4",
-  "architecture": "plugin(skill) + optional registered MCP app"
-}
